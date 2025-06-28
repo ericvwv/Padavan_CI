@@ -58,7 +58,7 @@ on:
         - ZTE_E8820S
         - FCJ_G-AX1800
         - Skspruce_WIA3300-10
-        default: Redmi_AC2100
+        default: Phicomm_K2P
       plugins:
         description: 'json format string of include configs'
         required: true
@@ -70,7 +70,7 @@ on:
       customization:
         description: 'json format string of customized configs'
         required: true
-        default: '{"rainbowui":"y","specializedlogo":"n","changebrandlogo":"n","lanip":"192.168.31.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"CDe","wifi5gssid":"CVV5","wifi2gpsk":"123456789010","wifi5gpsk":"123456789010"}'
+        default: '{"rainbowui":"n","specializedlogo":"n","changebrandlogo":"n","lanip":"192.168.31.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"CDe","wifi5gssid":"CVV5","wifi2gpsk":"123456789010","wifi5gpsk":"123456789010"}'
       firmwarever:
         description: 'firmware''s version'
         required: true
