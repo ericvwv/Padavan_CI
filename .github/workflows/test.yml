@@ -77,11 +77,12 @@ on:
 env:
   REPOSITORY_URL: https://github.com/vb1980/padavan-4.4.git
   WORK_PATH: /opt/padavan-4.4
+  DEFAULT_FILE: ./user/shared/defaults.h
+  DICT_FILE: ./user/www/dict/CN.dict
   TIME_ZONE: Asia/Shanghai
   FIRMWARE_DATEPREFIX: $(date +"%Y%m%d")
   FIRMWARE_AUTHOR: vb1980
   FIRMWARE_PATH: /opt/firmwares
-  firmwarever: "${{ github.event.inputs.firmwarever }}"
 jobs:
   build:
     runs-on: ubuntu-22.04
