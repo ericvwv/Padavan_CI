@@ -70,7 +70,7 @@ on:
       customization:
         description: 'json format string of customized configs'
         required: true
-        default: '{"rainbowui":"n","specializedlogo":"n","changebrandlogo":"n","lanip":"192.168.31.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"CDe","wifi5gssid":"CVV5","wifi2gpsk":"123456789010","wifi5gpsk":"123456789010"}'
+        default: '{"rainbowui":"y","specializedlogo":"n","changebrandlogo":"n","lanip":"192.168.31.1","signaccount":"admin","signpassword":"admin","wifi2gssid":"CDe","wifi5gssid":"CVV5","wifi2gpsk":"123456789010","wifi5gpsk":"123456789010"}'
       firmwarever:
         description: 'firmware''s version'
         required: true
